@@ -1,0 +1,14 @@
+#!/bin/env python3
+import subprocess
+from pitank.tank import main
+import sys
+try:
+	host = sys.argv[1]
+except:
+	host = '192.168.2.22'
+try:
+	port = int(sys.argv[2])
+except:
+	port = 9876
+
+main.start(host=host, port=port)

@@ -1,0 +1,2 @@
+websocket
+adafruit-circuitpython-motorkit
